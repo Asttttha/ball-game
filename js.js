@@ -37,7 +37,7 @@ function jump()
     {
         var characTop = parseInt(window.getComputedStyle(charac).getPropertyValue("top"));
 
-        if((characTop>6)&&(counter<15))
+        if((characTop>6)&&(counter<215))
         {
             charac.style.top = (characTop-3)+"px";
         }
